@@ -1,0 +1,79 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0.5rem;
+  }
+}
+
+.authCard {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  padding: 2.5rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+@media (max-width: 768px) {
+  .authCard {
+    padding: 2rem;
+    border-radius: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .authCard {
+    padding: 1.5rem;
+  }
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.5rem;
+  }
+}
+
+.subtitle {
+  color: #6b7280;
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+.form {
+  width: 100%;
+}
+
+.inputGroup {
+  margin-bottom: 1.5rem;
+}
+
+.footer {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.note {
+  font-size: 0.75rem;
+  color: #9ca3af;
+  margin: 0;
+}
