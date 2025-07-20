@@ -30,6 +30,7 @@ button {
 
 input {
   font-family: inherit;
+  color: black;
 }
 
 @media (prefers-color-scheme: dark) {
